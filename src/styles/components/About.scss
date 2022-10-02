@@ -1,0 +1,23 @@
+.about__section {
+  margin: 0 10%;
+  // margin: 0px 100px 0 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about__me {
+  // padding: 10%;
+  padding-top: 50px;
+  width: 90%;
+  @media all and (min-width: 450px) {
+    width: 400px;
+  }
+  @media all and (min-width: 1200px) {
+    width: 400px;
+  }
+}
+.about__title {
+  text-align: center;
+  font-size: 40px;
+}
